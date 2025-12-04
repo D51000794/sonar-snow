@@ -27,7 +27,6 @@ services:
   # Nginx Reverse Proxy
   nginx:
     image: nginx:alpine
-    container_name: gateway-nginx
     restart: unless-stopped
     ports:
       - "8085:80"
