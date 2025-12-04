@@ -1,0 +1,32 @@
+{
+  "name": "sonarqube-servicenow-gateway",
+  "version": "1.0.0",
+  "description": "Integration gateway between SonarQube and ServiceNow for automated incident management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sonarqube",
+    "servicenow",
+    "integration",
+    "gateway",
+    "incidents"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
