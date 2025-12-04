@@ -8,7 +8,6 @@ services:
   # Node.js Gateway Application
   gateway:
     build: ./gateway
-    container_name: my-gateway
     restart: unless-stopped
     env_file:
       - ./gateway/.env
